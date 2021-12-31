@@ -18,7 +18,7 @@ This takes a couple of parameters. (Your desired name for the model, description
 >> bash create-new-en-lang-model.sh name description apikey
 
 
-## create a custom language model (any lanaguage):
+## create a custom language model (any language):
 
 This is same as above, but here you also have the option to specify the language of your lanauge model. 
 list of models : https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-models
