@@ -10,12 +10,20 @@ IBM offers different API for creating language models, acoustic models, adding r
 You may call the IBM S2T API with providing only the Base-language. (i.e en_broadband_english).
 Also, the default mode has no acoustic (audio) model.
 
-## Create a custom language model:
+## Create a custom language model (English language):
 
 Creating a custom language model gives us the option to add texts to train the model even further. More specifically, you can create a new language model by specifying what base language (English, Arabic, etc) you want. Each language model can have one language only.
 This takes a couple of parameters. (Your desired name for the model, description of the model, base language of the model). Once you create a new custom lang model, the API will return its ID number.
 
 >> bash create-new-en-lang-model.sh name description apikey
+
+
+## create a custom language model (any lanaguage):
+
+This is same as above, but here you also have the option to specify the language of your lanauge model. 
+list of models : https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-models
+
+>> bash create-new-lang-model.sh name description model apikey
 
 
 ## Add text to a custom language model:
