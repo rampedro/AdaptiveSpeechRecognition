@@ -45,6 +45,15 @@ When you added the text file to your language model, you may run the following t
 >> bash train-language-model.sh languageModelId apikey
 
 
+
+## Reset a custom Language model:
+
+When you are not satisfy with your model, you may restart it with the following command
+>> bash reset-lang-model.sh languageModelId apikey
+
+
+
+
 ## Check custom Language model progress:
 
 You may run the following code to check the status of the specified custom language model: 
